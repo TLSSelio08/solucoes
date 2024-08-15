@@ -45,7 +45,7 @@
     }
 
     section.servicos{
-        height: 225vh;
+        height: 245vh;
     }
 
     .form-container, .instrucoes{
@@ -124,6 +124,11 @@
     .contato .txt-contato p{
         font-size: 20px;
         margin-bottom: 20px;
+        color: black;
+    }
+
+    .contato .icons-contato a{
+        text-decoration: none;
     }
     
     .contato .icons-contato button{

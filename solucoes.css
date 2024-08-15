@@ -500,8 +500,9 @@ section.contato{
     font-size: 3em;
 }
 
-.contato .txt-contato p{
-    font-size: 25px;
+.contato .txt-contato span{
+    font-size: 27px;
+    color: black;
 }
 
 .contato .icons-contato a{
@@ -531,11 +532,11 @@ section.contato{
     background-color: #000;
 }
 
-.contato .icons-contato button:hover i, .contato .icons-contato button:hover p{
+.contato .icons-contato button:hover i, .contato .icons-contato button:hover span{
     color: #ffff;
 }
 
-.contato .icons-contato button p{
+.contato .icons-contato button span{
     font-size: 17px;
 }
 

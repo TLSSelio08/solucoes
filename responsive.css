@@ -1,0 +1,149 @@
+
+@media screen and (max-width: 900px){
+    header .menu-desktop{
+        display: none;
+    }
+
+    header .btn-menu-mob{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 878px){
+    /* responsivo da hero */
+    .hero-site .texto {
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #ffff;
+    }
+
+    .hero-site .texto h1{
+        font-size: 2.6em;
+        line-height: 45px;
+    }
+
+    .hero-site .texto h2{
+        font-size: 15px;
+        display: inline;
+    }
+
+    .hero-site .texto h3{
+        font-size: 12px;
+        margin: 20px 0;
+        display: inline;
+    }
+
+    /* forms e instruções */
+    form{
+        padding: 30px;
+    }
+
+    section.servicos{
+        height: 225vh;
+    }
+
+    .form-container, .instrucoes{
+        display: block;
+        width: 100%;
+    }
+    
+    .instrucoes .instru-box{
+        flex-direction: column;
+        text-align: center;
+    }
+
+/* imagens e txt */
+    section.foto-txt{
+        padding: 20px 0;
+    }
+    
+    .foto-txt .itens-container{
+        flex-direction: column;
+    }
+    
+    .foto-txt .itens-container .img-itens img{
+        width: 100%;
+        margin-left: 0;
+        padding: 0;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .foto-txt .itens-container .txt-itens h5{
+        margin: 0;
+        padding: 0;
+        font-size: 1.3em;
+        line-height: 40px;
+    }
+    
+    .foto-txt .itens-container .txt-itens p{
+        margin-bottom: 20px;
+        font-size: 17px;
+    }
+
+ /* carrossel */
+    .container-slider{
+        min-height: 40vh;
+    }
+
+    .itens-container .txt-carrossel{
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+    .itens-container .txt-carrossel h5{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 20px;
+    }
+
+    .itens-container .txt-carrossel p{
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+
+/* contato */
+    
+    .txt-contato, .icons-contato{
+        display: block;
+        width: 100%;
+    }
+    
+    .contato .txt-contato h2{
+        font-size: 2em;
+        line-height: 40px;
+    }
+    
+    .contato .txt-contato p{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .contato .icons-contato button{
+        width: 100%;
+    }
+
+    /* txt carrossel */
+    
+    .itens-container .txt-carrossel h5{
+        font-size: 2em;
+    }
+    
+    .itens-container .txt-carrossel p{
+        font-size: 1em;
+    }
+
+/* footer */
+
+footer .bottom-footer p{
+    font-size: 14px;
+}
+
+}

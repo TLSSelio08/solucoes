@@ -518,6 +518,7 @@ section.contato{
     padding: 0 60px;
     background-color: transparent;
     border: 2px solid #000;
+    border-radius: 20px;
     cursor: pointer;
     transition: .5s;
 }

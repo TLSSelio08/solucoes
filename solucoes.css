@@ -500,7 +500,7 @@ section.contato{
     font-size: 3em;
 }
 
-.contato .txt-contato span{
+.contato .txt-contato p{
     font-size: 27px;
     color: black;
 }
@@ -538,6 +538,7 @@ section.contato{
 
 .contato .icons-contato button span{
     font-size: 17px;
+    color: #000
 }
 
 

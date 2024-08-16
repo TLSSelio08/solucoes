@@ -121,10 +121,9 @@
         line-height: 40px;
     }
     
-    .contato .txt-contato span{
+    .contato .txt-contato p{
         font-size: 20px;
         margin-bottom: 20px;
-        color: black;
     }
 
     .contato .icons-contato a{

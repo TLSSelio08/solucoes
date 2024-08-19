@@ -335,8 +335,8 @@ section.servicos{
     width: 50%;
     margin-right: -4px;
     vertical-align: middle;
-    height: 80vh;
-    margin-top: 90px;
+    height: 85vh;
+    margin-top: 40px;
 }
 
 .instrucoes .interface{
@@ -517,7 +517,7 @@ section.contato{
     margin: 0 auto 20px auto;
     padding: 0 60px;
     background-color: transparent;
-    border: 2px solid #000;
+    border: 2px solid #fff;
     border-radius: 20px;
     cursor: pointer;
     transition: .5s;
@@ -525,10 +525,12 @@ section.contato{
 
 .contato .icons-contato button i{
     font-size: 27px;
+    color: #fff;
 }
 
 .contato .icons-contato button:hover{
     background-color: #000;
+    border: #000;
 }
 
 .contato .icons-contato button:hover i, .contato .icons-contato button:hover span{
@@ -537,7 +539,7 @@ section.contato{
 
 .contato .icons-contato button span{
     font-size: 17px;
-    color: #000
+    color: #fff
 }
 
 

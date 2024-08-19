@@ -498,10 +498,12 @@ section.contato{
 
 .contato .txt-contato h2{
     font-size: 3em;
+    color: #fff;
 }
 
 .contato .txt-contato p{
     font-size: 27px;
+    color: #fff;
 }
 
 .contato .icons-contato a{

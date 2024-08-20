@@ -326,7 +326,7 @@ form input[type=submit]:hover{
 
 /* forms e texto*/
 section.servicos{
-    padding: 80px 0 0 0;
+    padding: 80px 0 50px 0;
     background-color: #000;
 }
 
@@ -335,7 +335,7 @@ section.servicos{
     width: 50%;
     margin-right: -4px;
     vertical-align: middle;
-    height: 85vh;
+    height: 90vh;
     margin-top: 40px;
 }
 
